@@ -1,0 +1,460 @@
+# Copyright (C) 2024 Orwokki <info@orwokki.com>
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Integration to NettiX for WooCommerce 2.0.0alpha1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wc-integration-to-"
+"nettix\n"
+"POT-Creation-Date: 2024-07-14T08:15:40+00:00\n"
+"PO-Revision-Date: 2024-07-14 11:30+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fi_FI\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Domain: wc-integration-to-nettix\n"
+
+#. Plugin Name of the plugin
+msgid "Integration to NettiX for WooCommerce"
+msgstr "Palvelusidos NettiX:ään"
+
+#. Description of the plugin
+msgid ""
+"Integration between WooCommerce and NettiX (https://almaajo.fi). Following "
+"Alma Ajo (previously NettiX) services can be used with this integration: "
+"Nettiauto, Nettimoto, Nettivene, Nettikaravaani, and Nettikone."
+msgstr ""
+"Integraatio WooCommercen ja NettiX:n (https://almaajo.fi) välillä. Seuraavat "
+"Alma Ajon (aiemmin NettiX) palvelut ovat käytettävissä integraatiossa: "
+"Nettiauto, Nettimoto, Nettivene, Nettikaravaani ja Nettikone."
+
+#. Author of the plugin
+msgid "Orwokki <info@orwokki.com>"
+msgstr "Orwokki <info@orwokki.com>"
+
+#. Author URI of the plugin
+msgid "https://orwokki.com"
+msgstr "https://orwokki.com"
+
+#: src/classes/Admin/Api.php:27
+msgid "Not allowed."
+msgstr "Ei sallittu."
+
+#: src/classes/Admin/Api.php:46 src/classes/Admin/Api.php:95
+msgid "Logging-in to API failed. Check Client ID and Client Secret."
+msgstr ""
+"Kirjautuminen API:in ei onnistunut. Tarkista asiakastunniste ja asiakkaan "
+"salainen avain."
+
+#: src/classes/Admin/Api.php:62
+msgid "Logging-in to API failed due to error. Error: %s"
+msgstr "Kirjautuminen API:in ei onnistunut, johtuen virheestä. Virhe: %s"
+
+#: src/classes/Admin/Api.php:85
+msgid "Logging-in to API succeeded, but User IDs are not defined."
+msgstr ""
+"Kirjautuminen API:in onnistui, mutta liikkeiden tunnisteita ei ole annettu."
+
+#: src/classes/Admin/Api.php:126
+msgid "Logging-in to API succeeded, but no ads found in Nettiauto."
+msgstr ""
+"Kirjautuminen API:in onnistui, mutta ilmoituksia ei löytynyt Nettiautosta."
+
+#: src/classes/Admin/Api.php:142
+msgid ""
+"Logging-in to API succeeded, but error occurred while fetching ads from "
+"Nettiauto. Error: %s"
+msgstr ""
+"Kirjautuminen API:in onnistui, mutta ilmoitusten haussa Nettiautosta "
+"tapahtui virhe. Virhe: %s"
+
+#: src/classes/Admin/Api.php:165
+msgid "Logging-in to API succeeded, but no ads found in Nettimoto."
+msgstr ""
+"Kirjautuminen API:in onnistui, mutta ilmoituksia ei löytynyt Nettimotosta."
+
+#: src/classes/Admin/Api.php:181
+msgid ""
+"Logging-in to API succeeded, but error occurred while fetching ads from "
+"Nettimoto. Error: %s"
+msgstr ""
+"Logging-in to API succeeded, but error occurred while fetching ads from "
+"Nettimoto. Error: %s"
+
+#: src/classes/Admin/Api.php:204
+msgid "Logging-in to API succeeded, but no ads found in Nettivene."
+msgstr "Logging-in to API succeeded, but no ads found in Nettivene."
+
+#: src/classes/Admin/Api.php:220
+msgid ""
+"Logging-in to API succeeded, but error occurred while fetching ads from "
+"Nettivene. Error: %s"
+msgstr ""
+"Logging-in to API succeeded, but error occurred while fetching ads from "
+"Nettivene. Error: %s"
+
+#: src/classes/Admin/Api.php:243
+msgid "Logging-in to API succeeded, but no ads found in Nettikone."
+msgstr "Logging-in to API succeeded, but no ads found in Nettikone."
+
+#: src/classes/Admin/Api.php:259
+msgid ""
+"Logging-in to API succeeded, but error occurred while fetching ads from "
+"Nettikone. Error: %s"
+msgstr ""
+"Kirjautuminen API:in onnistui, mutta ilmoitusten haussa Nettikoneesta "
+"tapahtui virhe. Virhe: %s"
+
+#: src/classes/Admin/Api.php:282
+msgid "Logging-in to API succeeded, but no ads found in Nettikaravaani."
+msgstr ""
+"Kirjautuminen API:in onnistui, mutta ilmoituksia ei löytynyt "
+"Nettikaravaanista."
+
+#: src/classes/Admin/Api.php:298
+msgid ""
+"Logging-in to API succeeded, but error occurred while fetching ads from "
+"Nettikaravaani. Error: %s"
+msgstr ""
+"Kirjautuminen API:in onnistui, mutta ilmoitusten haussa Nettikaravaanista "
+"tapahtui virhe. Virhe: %s"
+
+#: src/classes/Admin/Api.php:315
+msgid "Success!"
+msgstr "Toimii!"
+
+#: src/classes/Plugin/Activation.php:86
+msgid ""
+"Product category for motor bike ads imported from Nettimoto by NettiX "
+"integration"
+msgstr ""
+"Tuoteluokitus mopojen ja moottoripyörien ilmoituksille, jotka on tuotu "
+"Nettimoto-palvelusta"
+
+#: src/classes/Plugin/Activation.php:95
+msgid ""
+"Product category for boat ads imported from Nettivene by NettiX integration"
+msgstr "Tuoteluokitus veneilmoituksille, jotka on tuotu Nettivene-palvelusta"
+
+#: src/classes/Plugin/Activation.php:104
+msgid ""
+"Product category for car ads imported from Nettiauto by NettiX integration"
+msgstr "Tuoteluokitus autoilmoituksille, jotka on tuotu Nettiauto-palvelusta"
+
+#: src/classes/Plugin/Activation.php:113
+msgid ""
+"Product category for machine ads imported from Nettikone by NettiX "
+"integration"
+msgstr "Tuoteluokitus autoilmoituksille, jotka on tuotu Nettikone-palvelusta"
+
+#: src/classes/Plugin/Activation.php:122
+msgid ""
+"Product category for machine ads imported from Nettikaravaani by NettiX "
+"integration"
+msgstr ""
+"Tuoteluokitus autoilmoituksille, jotka on tuotu Nettikaravaani-palvelusta"
+
+#: src/classes/WC_Integration_NettiX_Integration.php:11
+msgid "Integration to NettiX"
+msgstr "Palvelusidos NettiX:ään"
+
+#: src/classes/WC_Integration_NettiX_Integration.php:12
+msgid "Integration between WooCommerce and NettiX."
+msgstr "Palvelusidos WooCommercen ja NettiX:n välille."
+
+#: src/classes/WC_Integration_NettiX_Integration.php:101
+msgid "Client ID"
+msgstr "Asiakastunniste"
+
+#: src/classes/WC_Integration_NettiX_Integration.php:103
+msgid "Enter with your Client ID provided by NettiX"
+msgstr ""
+"Lisää tähän asiakastunniste eli Client ID, jonka olet saanut NettiX:ltä"
+
+#: src/classes/WC_Integration_NettiX_Integration.php:109
+msgid "Client Secret"
+msgstr "Asiakkaan salainen avain"
+
+#: src/classes/WC_Integration_NettiX_Integration.php:111
+msgid "Enter with your Client Secret provided by NettiX"
+msgstr ""
+"Lisää tähän asiakkaan salainen avain eli Client Secret, jonka olet saanut "
+"NettiX:ltä"
+
+#: src/classes/WC_Integration_NettiX_Integration.php:117
+msgid "User IDs (store IDs)"
+msgstr "Liikkeiden tunnisteet"
+
+#: src/classes/WC_Integration_NettiX_Integration.php:119
+msgid ""
+"Comma separated list of user IDs (numerical store IDs) provided by NettiX"
+msgstr ""
+"Lisää tähän pilkuilla eroteltuina myyjäliikkeiden numeeriset tunnisteet, "
+"jotka olet saanut NettiX:ltä"
+
+#: src/classes/WC_Integration_NettiX_Integration.php:125
+msgid "NettiX Services"
+msgstr "NettiX:n palvelut"
+
+#: src/classes/WC_Integration_NettiX_Integration.php:127
+msgid "Nettiauto"
+msgstr "Nettiauto"
+
+#: src/classes/WC_Integration_NettiX_Integration.php:129
+msgid "Use NettiX service Nettiauto"
+msgstr "Hae ilmoitukset Nettiautosta"
+
+#: src/classes/WC_Integration_NettiX_Integration.php:133
+msgid "Nettikaravaani"
+msgstr "Nettikaravaani"
+
+#: src/classes/WC_Integration_NettiX_Integration.php:135
+msgid "Use NettiX service Nettikaravaani"
+msgstr "Hae ilmoitukset Nettikaravaanista"
+
+#: src/classes/WC_Integration_NettiX_Integration.php:139
+msgid "Nettikone"
+msgstr "Nettikone"
+
+#: src/classes/WC_Integration_NettiX_Integration.php:141
+msgid "Use NettiX service Nettikone"
+msgstr "Hae ilmoitukset Nettikoneesta"
+
+#: src/classes/WC_Integration_NettiX_Integration.php:145
+msgid "Nettimoto"
+msgstr "Nettimoto"
+
+#: src/classes/WC_Integration_NettiX_Integration.php:147
+msgid "Use NettiX service Nettimoto"
+msgstr "Hae ilmoitukset Nettimotosta"
+
+#: src/classes/WC_Integration_NettiX_Integration.php:151
+msgid "Nettivene"
+msgstr "Nettivene"
+
+#: src/classes/WC_Integration_NettiX_Integration.php:153
+msgid "Use NettiX service Nettivene"
+msgstr "Hae ilmoitukset Nettiveneestä"
+
+#: src/classes/WC_Integration_NettiX_Integration.php:157
+msgid "Test connection"
+msgstr "Kokeile yhteyttä"
+
+#: src/classes/WC_Integration_NettiX_Integration.php:159
+msgid ""
+"Check that connection settings are correct. Testing logging-in to NettiX API."
+msgstr ""
+"Tarkistaa asetusten toimivuuden. Kokeilee kirjautumista NettiX:n API:in."
+
+#: src/classes/WC_Integration_NettiX_Integration.php:167
+msgid "Show badge on product card"
+msgstr "Näytä kyltti tuotekortissa"
+
+#: src/classes/WC_Integration_NettiX_Integration.php:169
+msgid "Show Badge"
+msgstr "Näytä kyltti"
+
+#: src/classes/WC_Integration_NettiX_Integration.php:175
+msgid "Field to show in badge"
+msgstr "Kenttä jonka tieto näytetään kyltissä"
+
+#: src/classes/WC_Integration_NettiX_Integration.php:179
+#: src/classes/WC_Integration_NettiX_Integration.php:296
+#: wc-integration-to-nettix.php:197 wc-integration-to-nettix.php:198
+msgid "Vehicle type"
+msgstr "Ajoneuvon tyyppi"
+
+#: src/classes/WC_Integration_NettiX_Integration.php:181
+#: src/classes/WC_Integration_NettiX_Integration.php:481
+#: wc-integration-to-nettix.php:203 wc-integration-to-nettix.php:204
+msgid "Boat type"
+msgstr "Aluksen tyyppi"
+
+#: src/classes/WC_Integration_NettiX_Integration.php:183
+#: src/classes/WC_Integration_NettiX_Integration.php:486
+#: wc-integration-to-nettix.php:209 wc-integration-to-nettix.php:210
+msgid "Boat sub-type"
+msgstr "Aluksen alatyyppi"
+
+#: src/classes/WC_Integration_NettiX_Integration.php:185
+#: src/classes/WC_Integration_NettiX_Integration.php:236
+#: src/classes/WC_Integration_NettiX_Integration.php:301
+#: src/classes/WC_Integration_NettiX_Integration.php:361
+#: src/classes/WC_Integration_NettiX_Integration.php:426
+#: src/classes/WC_Integration_NettiX_Integration.php:491
+#: wc-integration-to-nettix.php:215 wc-integration-to-nettix.php:216
+msgid "Maker"
+msgstr "Merkki"
+
+#: src/classes/WC_Integration_NettiX_Integration.php:187
+#: src/classes/WC_Integration_NettiX_Integration.php:241
+#: src/classes/WC_Integration_NettiX_Integration.php:306
+#: src/classes/WC_Integration_NettiX_Integration.php:366
+#: src/classes/WC_Integration_NettiX_Integration.php:431
+#: src/classes/WC_Integration_NettiX_Integration.php:496
+#: wc-integration-to-nettix.php:221 wc-integration-to-nettix.php:222
+msgid "Model"
+msgstr "Malli"
+
+#: src/classes/WC_Integration_NettiX_Integration.php:189
+#: src/classes/WC_Integration_NettiX_Integration.php:246
+#: src/classes/WC_Integration_NettiX_Integration.php:371
+#: src/classes/WC_Integration_NettiX_Integration.php:436
+#: wc-integration-to-nettix.php:227 wc-integration-to-nettix.php:228
+msgid "Model type"
+msgstr "Mallitarkennus"
+
+#: src/classes/WC_Integration_NettiX_Integration.php:191
+#: src/classes/WC_Integration_NettiX_Integration.php:316
+#: wc-integration-to-nettix.php:233 wc-integration-to-nettix.php:234
+msgid "Base"
+msgstr "Alusta"
+
+#: src/classes/WC_Integration_NettiX_Integration.php:193
+#: src/classes/WC_Integration_NettiX_Integration.php:256
+#: src/classes/WC_Integration_NettiX_Integration.php:326
+#: src/classes/WC_Integration_NettiX_Integration.php:386
+#: src/classes/WC_Integration_NettiX_Integration.php:446
+#: wc-integration-to-nettix.php:245 wc-integration-to-nettix.php:246
+msgid "Kilometers"
+msgstr "Mittarilukema"
+
+#: src/classes/WC_Integration_NettiX_Integration.php:195
+#: src/classes/WC_Integration_NettiX_Integration.php:391
+#: wc-integration-to-nettix.php:251 wc-integration-to-nettix.php:252
+msgid "Hours"
+msgstr "Käyttötunnit"
+
+#: src/classes/WC_Integration_NettiX_Integration.php:197
+#: src/classes/WC_Integration_NettiX_Integration.php:261
+#: src/classes/WC_Integration_NettiX_Integration.php:376
+#: wc-integration-to-nettix.php:257 wc-integration-to-nettix.php:258
+msgid "Fuel type"
+msgstr "Polttoaine"
+
+#: src/classes/WC_Integration_NettiX_Integration.php:199
+#: src/classes/WC_Integration_NettiX_Integration.php:501
+#: wc-integration-to-nettix.php:263 wc-integration-to-nettix.php:264
+msgid "Engine maker"
+msgstr "Moottorin merkki"
+
+#: src/classes/WC_Integration_NettiX_Integration.php:201
+#: src/classes/WC_Integration_NettiX_Integration.php:506
+#: wc-integration-to-nettix.php:269 wc-integration-to-nettix.php:270
+msgid "Engine model"
+msgstr "Moottorin malli"
+
+#: src/classes/WC_Integration_NettiX_Integration.php:203
+#: src/classes/WC_Integration_NettiX_Integration.php:511
+#: wc-integration-to-nettix.php:275 wc-integration-to-nettix.php:276
+msgid "Engine model specification"
+msgstr "Moottorin mallitarkennus"
+
+#: src/classes/WC_Integration_NettiX_Integration.php:205
+#: src/classes/WC_Integration_NettiX_Integration.php:266
+#: src/classes/WC_Integration_NettiX_Integration.php:331
+#: src/classes/WC_Integration_NettiX_Integration.php:396
+#: src/classes/WC_Integration_NettiX_Integration.php:451
+#: src/classes/WC_Integration_NettiX_Integration.php:521
+#: wc-integration-to-nettix.php:281 wc-integration-to-nettix.php:282
+msgid "Location"
+msgstr "Sijainti"
+
+#: src/classes/WC_Integration_NettiX_Integration.php:214
+msgid "Nettiauto product content settings"
+msgstr "Tuotetietojen asetukset Nettiautolle"
+
+#: src/classes/WC_Integration_NettiX_Integration.php:217
+#: src/classes/WC_Integration_NettiX_Integration.php:277
+#: src/classes/WC_Integration_NettiX_Integration.php:342
+#: src/classes/WC_Integration_NettiX_Integration.php:407
+#: src/classes/WC_Integration_NettiX_Integration.php:462
+msgid "Use list in product short description"
+msgstr "Muodosta lyhyeen kuvaukseen lisättävistä tiedoista lista"
+
+#: src/classes/WC_Integration_NettiX_Integration.php:219
+#: src/classes/WC_Integration_NettiX_Integration.php:279
+#: src/classes/WC_Integration_NettiX_Integration.php:344
+#: src/classes/WC_Integration_NettiX_Integration.php:409
+#: src/classes/WC_Integration_NettiX_Integration.php:464
+msgid "Use list"
+msgstr "Muodosta lista"
+
+#: src/classes/WC_Integration_NettiX_Integration.php:221
+#: src/classes/WC_Integration_NettiX_Integration.php:281
+#: src/classes/WC_Integration_NettiX_Integration.php:346
+#: src/classes/WC_Integration_NettiX_Integration.php:411
+#: src/classes/WC_Integration_NettiX_Integration.php:466
+msgid ""
+"When selected fields are added as unordered list into short description "
+"using HTML"
+msgstr ""
+"Kun tämä on valittuna, niin lyhyeen kuvaukseen lisättävistä tiedoista "
+"muodostetaan päällekkäin oleva lista käyttäen HTML:ia"
+
+#: src/classes/WC_Integration_NettiX_Integration.php:225
+#: src/classes/WC_Integration_NettiX_Integration.php:285
+#: src/classes/WC_Integration_NettiX_Integration.php:350
+#: src/classes/WC_Integration_NettiX_Integration.php:415
+#: src/classes/WC_Integration_NettiX_Integration.php:470
+msgid "Show field labels before each field in short description"
+msgstr "Näytä kenttien nimet lyhyen kuvauksen tiedoissa"
+
+#: src/classes/WC_Integration_NettiX_Integration.php:228
+#: src/classes/WC_Integration_NettiX_Integration.php:288
+#: src/classes/WC_Integration_NettiX_Integration.php:353
+#: src/classes/WC_Integration_NettiX_Integration.php:418
+#: src/classes/WC_Integration_NettiX_Integration.php:473
+msgid "Show labels"
+msgstr "Näytä kenttien nimet"
+
+#: src/classes/WC_Integration_NettiX_Integration.php:230
+#: src/classes/WC_Integration_NettiX_Integration.php:290
+#: src/classes/WC_Integration_NettiX_Integration.php:355
+#: src/classes/WC_Integration_NettiX_Integration.php:420
+#: src/classes/WC_Integration_NettiX_Integration.php:475
+msgid ""
+"When selected field names are shown before each field in short description"
+msgstr ""
+"Kun tämä on valittuna, niin lyhyeen kuvaukseen lisättävien kenttien nimet "
+"lisätään kuvaukseen"
+
+#: src/classes/WC_Integration_NettiX_Integration.php:234
+#: src/classes/WC_Integration_NettiX_Integration.php:294
+#: src/classes/WC_Integration_NettiX_Integration.php:359
+#: src/classes/WC_Integration_NettiX_Integration.php:424
+#: src/classes/WC_Integration_NettiX_Integration.php:479
+msgid "Fields to add to short description"
+msgstr "Lyhyeen kuvaukseen lisättävät tiedot"
+
+#: src/classes/WC_Integration_NettiX_Integration.php:251
+#: src/classes/WC_Integration_NettiX_Integration.php:321
+#: src/classes/WC_Integration_NettiX_Integration.php:381
+#: src/classes/WC_Integration_NettiX_Integration.php:441
+#: src/classes/WC_Integration_NettiX_Integration.php:516
+#: wc-integration-to-nettix.php:239 wc-integration-to-nettix.php:240
+msgid "Year"
+msgstr "Vuosimalli"
+
+#: src/classes/WC_Integration_NettiX_Integration.php:274
+msgid "Nettikaravaani product content settings"
+msgstr "Tuotetietojen asetukset Nettikaravaanille"
+
+#: src/classes/WC_Integration_NettiX_Integration.php:311
+msgid "Model information"
+msgstr "Mallitieto"
+
+#: src/classes/WC_Integration_NettiX_Integration.php:339
+msgid "Nettikone product content settings"
+msgstr "Tuotetietojen asetukset Nettikoneelle"
+
+#: src/classes/WC_Integration_NettiX_Integration.php:404
+msgid "Nettimoto product content settings"
+msgstr "Tuotetietojen asetukset Nettimotolle"
+
+#: src/classes/WC_Integration_NettiX_Integration.php:459
+msgid "Nettivene product content settings"
+msgstr "Tuotetietojen asetukset Nettiveneelle"

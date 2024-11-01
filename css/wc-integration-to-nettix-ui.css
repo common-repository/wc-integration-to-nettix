@@ -1,0 +1,7 @@
+.wc-integration-to-nettix-badge {
+    background-color: var(--wp--preset--color--primary);
+    color: var(--wp--preset--color--contrast);
+    font-size: var(--wp--preset--font-size--small);
+    line-height: var(--wp--preset--font-size--small);
+    padding: .5rem
+}
